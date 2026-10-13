@@ -1,0 +1,87 @@
+name: Test Nagra Key Extractor - Zee Bollywood
+
+on:
+  workflow_dispatch: # तू मॅन्युअली 'Run workflow' दाबून टेस्ट करू शकतोस
+
+jobs:
+  test-fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install pywidevine requests
+
+      - name: Run Key Extractor Script
+        run: |
+          python3 -c '
+          import re
+          import requests
+          from pywidevine.cdm import Cdm
+          from pywidevine.device import Device
+          from pywidevine.pssh import PSSH
+
+          try:
+              # १. Zee Bollywood ची MPD URL
+              mpd_url = "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Bollywood/dash/Zee_Bollywood.mpd"
+              
+              print("Fetching MPD...")
+              mpd_res = requests.get(mpd_url, timeout=15)
+              print("MPD Status:", mpd_res.status_code)
+              
+              # MPD मधून PSSH शोधणे
+              pssh_match = re.search(r"<cenc:pssh[^>]*>(.*?)</cenc:pssh>", mpd_res.text, re.DOTALL)
+              if pssh_match:
+                  pssh_str = pssh_match.group(1).strip()
+                  print(f"Extracted PSSH: {pssh_str}")
+              else:
+                  raise Exception("PSSH tag not found in MPD manifest!")
+
+              # २. डिवाईस लोड करणे (device.wvd फाईल रिपॉझिटरीमध्ये असणे आवश्यक आहे)
+              device = Device.load("device.wvd")
+              cdm = Cdm.from_device(device)
+              session_id = cdm.open()
+
+              pssh = PSSH(pssh_str)
+              challenge = cdm.get_license_challenge(session_id, pssh)
+
+              # ३. नागरा सर्व्हर आणि तू दिलेला टोकन
+              license_url = "https://dshp4r35.anycast.nagra.com/DSHP4R35/wvls/contentlicenseservice/v1/licenses"
+              headers = {
+                  "nv-authorizations": "eyJraWQiOiI0Nzk2MTEiLCJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXIiOiIxLjAiLCJ0eXAiOiJDb250ZW50QXV0aFoiLCJleHAiOjE3OTE4OTEzNDcsImp0aSI6IjNlMjE3OWYxLWRmNDgtNDUyMi1hOTg2LWQwYmY0YzQzMGIyMCIsImNvbnRlbnRSaWdodHMiOlt7ImNvbnRlbnRJZCI6Ijk0ODcxMDQiLCJ1c2FnZVJ1bGVzUHJvZmlsZUlkIjoiVGVzdCJ9XX0.kQbKrVlo8_exOWQE1U0Ul0BxRooIHQOUIpxhPnjntts",
+                  "nv-tenant-id": "DSHP4R35",
+                  "Content-Type": "application/octet-stream",
+                  "Origin": "https://www.vzy.one",
+                  "Referer": "https://www.vzy.one/"
+              }
+
+              print("Sending License Request...")
+              response = requests.post(license_url, headers=headers, data=challenge, timeout=15)
+              print("License Response Status:", response.status_code)
+              print("License Response Body:", response.text[:200]) # डीबग करण्यासाठी
+
+              # ४. की पार्स करून KID आणि KEY बाहेर काढणे
+              cdm.parse_license(session_id, response.content)
+              keys_found = False
+              for k in cdm.get_keys(session_id):
+                  if k.type == "CONTENT":
+                      keys_found = True
+                      print(f"SUCCESS -> KID: {k.kid.hex()}")
+                      print(f"SUCCESS -> KEY: {k.key.hex()}")
+
+              if not keys_found:
+                  print("Warning: Response received but no content keys found.")
+
+              cdm.close(session_id)
+
+          except Exception as e:
+              print("Error during test:", str(e))
+          '
+          
