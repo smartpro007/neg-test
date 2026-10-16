@@ -3,6 +3,9 @@ name: Extract All Channel Keys
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write  # <--- हा भाग नवीन जोडा
+
 jobs:
   run-batch:
     runs-on: ubuntu-latest
