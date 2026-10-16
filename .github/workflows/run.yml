@@ -1,12 +1,12 @@
-name: Extract Widevine Keys from API
+name: Extract Keys via API
 
 on:
   workflow_dispatch:
     inputs:
-      channel_query:
-        description: 'Channel Name or Number (e.g. Zee Power or 732)'
+      channel_id:
+        description: 'Channel Number or ID (e.g. 157811)'
         required: true
-        default: 'Zee Power'
+        default: '157811'
 
 jobs:
   run-script:
@@ -32,5 +32,5 @@ jobs:
 
       - name: Run Key Extractor
         run: |
-          python extractor.py "${{ github.event.inputs.channel_query }}"
+          python extractor.py "${{ github.event.inputs.channel_id }}"
           
