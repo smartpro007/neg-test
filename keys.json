@@ -66,6 +66,17 @@
         ]
     },
     {
+        "channelNumber": 66,
+        "name": "Zee Classic",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "9e307fd0-0afc-49ff-b768-7317a20cd885",
+                "key": "338caebdd128294d204f1af302ddb28a"
+            }
+        ]
+    },
+    {
         "channelNumber": 144443,
         "name": "Zee Cinema HD",
         "keys": [
@@ -73,6 +84,17 @@
                 "type": "CONTENT",
                 "kid": "ceb4be5c-ee18-4f61-9e78-995f3f35e4f4",
                 "key": "6d7694f61a1d5548c69b10a0d1a1cc5a"
+            }
+        ]
+    },
+    {
+        "channelNumber": 75,
+        "name": "Anmol Cinema 2",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "6177c516-7f9f-4760-ae5f-3f9a71d53adc",
+                "key": "49636ca353b14c680415bb8ca7b10fe1"
             }
         ]
     },
@@ -88,6 +110,17 @@
         ]
     },
     {
+        "channelNumber": 92,
+        "name": "Big Magic",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "04b1818e-777f-4964-8ae6-593aa72f5613",
+                "key": "a21485e34ee2d85aa2fe2d41b22a5dca"
+            }
+        ]
+    },
+    {
         "channelNumber": 144484,
         "name": "Zing",
         "keys": [
@@ -95,6 +128,28 @@
                 "type": "CONTENT",
                 "kid": "08570ce6-aa23-4262-a53d-66225cb797c9",
                 "key": "c6bcafad1d9e2a20834dd811ebc49ccc"
+            }
+        ]
+    },
+    {
+        "channelNumber": 152,
+        "name": "Unite8 Sports 1 HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "df261ed1-1fe7-41ac-a928-8a300bdf7393",
+                "key": "2e4ca1051fdf37e7cdd850845c813974"
+            }
+        ]
+    },
+    {
+        "channelNumber": 153,
+        "name": "Unite8 Sports 2 HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "0bf623d2-4600-42a1-b289-1e181dee69ab",
+                "key": "9cf3fd7936d9045484edc9937a214bfa"
             }
         ]
     },
@@ -143,6 +198,17 @@
         ]
     },
     {
+        "channelNumber": 413,
+        "name": "ZEE PUNJABI",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "500f5ba3-da3c-477c-bb77-55d46e7f84c5",
+                "key": "9b6f97aef90fe972efb058b2f63ec7b9"
+            }
+        ]
+    },
+    {
         "channelNumber": 144458,
         "name": "Zee Marathi HD",
         "keys": [
@@ -150,6 +216,17 @@
                 "type": "CONTENT",
                 "kid": "48fe934d-cc0e-4e79-93fd-f0118eff61a7",
                 "key": "e462ea543bfdfa05a58a0375da7d013e"
+            }
+        ]
+    },
+    {
+        "channelNumber": 472,
+        "name": "Zee Yuva",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "3c5ebf6e-8f8e-476e-ae1b-72534cd8898a",
+                "key": "4566da33dd312a8790a565ed5fa81d3d"
             }
         ]
     },
@@ -187,6 +264,17 @@
         ]
     },
     {
+        "channelNumber": 577,
+        "name": "Zee Bangla Sonar",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "ded983f2-b6af-4177-8f96-8688e04b819e",
+                "key": "17db9b15033785025202bc509c163586"
+            }
+        ]
+    },
+    {
         "channelNumber": 588,
         "name": "Zee 24 GHANTA",
         "keys": [
@@ -198,6 +286,28 @@
         ]
     },
     {
+        "channelNumber": 637,
+        "name": "Zee Biskope",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "9e1fad39-7fa8-41eb-842b-ede4e9798262",
+                "key": "e5b15cb5be1209b8cb5c2d70a51a55fc"
+            }
+        ]
+    },
+    {
+        "channelNumber": 665,
+        "name": "Zee Telugu HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "82815fd1-6911-47e6-b8ae-ce4fc48b0fd2",
+                "key": "62b4e459497609e97e2af71939b92845"
+            }
+        ]
+    },
+    {
         "channelNumber": 157600,
         "name": "Zoom",
         "keys": [
@@ -205,6 +315,28 @@
                 "type": "CONTENT",
                 "kid": "2469bf76-7cfa-48ca-8490-05a628051cec",
                 "key": "c4c35ab003d77115b2834cc04391de92"
+            }
+        ]
+    },
+    {
+        "channelNumber": 683,
+        "name": "Zee Cinemalu HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "60d53670-f4ca-4f1f-a778-3f4bd8692d1e",
+                "key": "1813849c6e0b7f167056e6a3c00c3f7f"
+            }
+        ]
+    },
+    {
+        "channelNumber": 722,
+        "name": "Zee Kannada HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "b564c0ec-6556-498f-ab16-a3b106c97735",
+                "key": "4c21d246b71e797d36048890364f1148"
             }
         ]
     },
@@ -227,6 +359,17 @@
                 "type": "CONTENT",
                 "kid": "b269330c-a513-46f8-b638-3070510f0d01",
                 "key": "c215b7f013659365109d5d7258eedb7b"
+            }
+        ]
+    },
+    {
+        "channelNumber": 853,
+        "name": "Zee Keralam HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "6b861e14-ff33-4593-96ee-2fe6fa8a0ce8",
+                "key": "ce7fea2e6505acf1c636f499553be8d0"
             }
         ]
     }
