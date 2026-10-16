@@ -1,0 +1,36 @@
+name: Extract Widevine Keys from API
+
+on:
+  workflow_dispatch:
+    inputs:
+      channel_query:
+        description: 'Channel Name or Number (e.g. Zee Power or 732)'
+        required: true
+        default: 'Zee Power'
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests pywidevine
+
+      - name: Decode WVD File
+        env:
+          WVD_SECRET: ${{ secrets.WVD_BASE64 }}
+        run: |
+          echo "$WVD_SECRET" | base64 --decode > device.wvd
+
+      - name: Run Key Extractor
+        run: |
+          python extractor.py "${{ github.event.inputs.channel_query }}"
+          
