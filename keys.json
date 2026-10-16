@@ -1,5 +1,82 @@
 [
     {
+        "channelNumber": 142641,
+        "name": "&Tv HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "ebc65d45-5dcf-4e2e-ab84-e09f37c4cee8",
+                "key": "1da224cb9e124041d6cb02b2b80956e4"
+            }
+        ]
+    },
+    {
+        "channelNumber": 144479,
+        "name": "ZEE TV HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "c3b422dd-35d4-4678-843c-574e2e4427b9",
+                "key": "5c53b91986187b70cccb7db5daec781b"
+            }
+        ]
+    },
+    {
+        "channelNumber": 144435,
+        "name": "Zee Anmol",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "964ca73a-98f5-4646-8ce1-534ab736f667",
+                "key": "b3f804f21879462245ad0a82bb1c6dfc"
+            }
+        ]
+    },
+    {
+        "channelNumber": 142638,
+        "name": "&Pictures HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "844235f9-8b26-43ef-8e0b-e965aa52ab70",
+                "key": "04e63835039977006e0124e7163e5ab9"
+            }
+        ]
+    },
+    {
+        "channelNumber": 144438,
+        "name": "Zee Bollywood",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "b2960d8d-e3ce-4f0a-8353-64dc3e9d526b",
+                "key": "1b62615a08c72353ed2adfe52dfbd1f1"
+            }
+        ]
+    },
+    {
+        "channelNumber": 144434,
+        "name": "Zee Action",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "9f6b811f-65b4-4f50-9c69-a0d50bacd3ae",
+                "key": "c0c1d6b006aa5d1441b3a5fae0457e81"
+            }
+        ]
+    },
+    {
+        "channelNumber": 144443,
+        "name": "Zee Cinema HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "ceb4be5c-ee18-4f61-9e78-995f3f35e4f4",
+                "key": "6d7694f61a1d5548c69b10a0d1a1cc5a"
+            }
+        ]
+    },
+    {
         "channelNumber": 144436,
         "name": "Zee Anmol Cinema",
         "keys": [
@@ -7,6 +84,149 @@
                 "type": "CONTENT",
                 "kid": "590dac78-2863-4ded-a858-96a11c96122c",
                 "key": "ad607c12c9c152256b483414c219c5b1"
+            }
+        ]
+    },
+    {
+        "channelNumber": 144484,
+        "name": "Zing",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "08570ce6-aa23-4262-a53d-66225cb797c9",
+                "key": "c6bcafad1d9e2a20834dd811ebc49ccc"
+            }
+        ]
+    },
+    {
+        "channelNumber": 143021,
+        "name": "ET Now",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "7310bfde-55dc-4081-aac2-cfb6938cf804",
+                "key": "38fddb513252b539fcadefed5a8d58cf"
+            }
+        ]
+    },
+    {
+        "channelNumber": 144087,
+        "name": "Wion",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "4cd80157-fba3-4705-911d-b38f91a8bd6a",
+                "key": "44734b8df04ef96d777586624c908f58"
+            }
+        ]
+    },
+    {
+        "channelNumber": 144006,
+        "name": "Times Now",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "2b2dc6b2-169d-45fd-b00a-ae97ce154c5e",
+                "key": "0e62071475da6fcf1d3f1c4b0ca8f38a"
+            }
+        ]
+    },
+    {
+        "channelNumber": 343,
+        "name": "Zee Zest",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "63b531fc-9732-4e61-8628-35bbdb9c7bf5",
+                "key": "fd9bd7079ab07a44a0cca3a1a97076d6"
+            }
+        ]
+    },
+    {
+        "channelNumber": 144458,
+        "name": "Zee Marathi HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "48fe934d-cc0e-4e79-93fd-f0118eff61a7",
+                "key": "e462ea543bfdfa05a58a0375da7d013e"
+            }
+        ]
+    },
+    {
+        "channelNumber": 144469,
+        "name": "Zee Talkies HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "acad32f0-3b11-436a-a5fd-234c1324fb64",
+                "key": "4fb0ee9115569cd43004badf9866323e"
+            }
+        ]
+    },
+    {
+        "channelNumber": 144467,
+        "name": "Zee Sarthak",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "ece1de03-f475-4961-b222-b3dd6c2953be",
+                "key": "03b20fbe5edf0a0b9cb05504bb98a6ff"
+            }
+        ]
+    },
+    {
+        "channelNumber": 158049,
+        "name": "Zee Bangla HD",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "475e8849-789d-4a05-b101-dcc57e338d3a",
+                "key": "fe6bdf057146f0859f1b39f94387a1d9"
+            }
+        ]
+    },
+    {
+        "channelNumber": 588,
+        "name": "Zee 24 GHANTA",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "7fb243b3-f15b-4615-b0e7-922279712e1d",
+                "key": "d8a99817cf7dbdcd878cdc884fcfdcf3"
+            }
+        ]
+    },
+    {
+        "channelNumber": 157600,
+        "name": "Zoom",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "2469bf76-7cfa-48ca-8490-05a628051cec",
+                "key": "c4c35ab003d77115b2834cc04391de92"
+            }
+        ]
+    },
+    {
+        "channelNumber": 732,
+        "name": "Zee Power",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "a66ba76a-e9e4-4ed6-bdc7-9089620395ed",
+                "key": "aadaafe9fa1e8475a288f5aad3d413a3"
+            }
+        ]
+    },
+    {
+        "channelNumber": 794,
+        "name": "Zee Thirai",
+        "keys": [
+            {
+                "type": "CONTENT",
+                "kid": "b269330c-a513-46f8-b638-3070510f0d01",
+                "key": "c215b7f013659365109d5d7258eedb7b"
             }
         ]
     }
