@@ -1,0 +1,610 @@
+[
+    {
+        "channelNumber": 142641,
+        "name": "&Tv HD",
+        "entryId": "HE_E_10086",
+        "externalId": "HE_E_10086",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/5348d74e05694732a49866a8378156d5/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/And_Tv_HD/dash/And_Tv_HD.mpd"
+    },
+    {
+        "channelNumber": 144479,
+        "name": "ZEE TV HD",
+        "entryId": "HE_E_10080",
+        "externalId": "HE_E_10080",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/04bc627420754c2592f21bb6c37d7f41/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/ZEE_TV_HD/dash/ZEE_TV_HD.mpd"
+    },
+    {
+        "channelNumber": 144435,
+        "name": "Zee Anmol",
+        "entryId": "HE_E_10056",
+        "externalId": "HE_E_10056",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/fa440859759342b48006f01bf79df2b6/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Anmol/dash/Zee_Anmol.mpd"
+    },
+    {
+        "channelNumber": 157811,
+        "name": "Investigation Discovery HD",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5011_1234567890AbcFebcd23aa27e4ac2467_6754567890AbcFebcdFFaa27e4ac2134",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5011_1234567890AbcFebcd23aa27e4ac2467_6754567890AbcFebcdFFaa27e4ac2134",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/e5872a64242a476baefe3788056b2c3a/version/0",
+        "streamUrl": "https://wbd.skandha.tv/Investigation_Discovery_India_HD/Investigation_Discovery_India_HD.isml/.mpd"
+    },
+    {
+        "channelNumber": 158239,
+        "name": "Colors Rishtey",
+        "entryId": "1540068702",
+        "externalId": "1540068702",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/938d8da5d45a45cea363adcc4b06e7a9/version/0",
+        "streamUrl": "https://dw7qrjodgoy3w.cloudfront.net/live/media1/NEWS18_India/dash/NEWS18_India.mpd"
+    },
+    {
+        "channelNumber": 142638,
+        "name": "&Pictures HD",
+        "entryId": "HE_E_10100",
+        "externalId": "HE_E_10100",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/75364a7b9f09477b9ee80016a6440b6b/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/And_Pictures_HD/dash/And_Pictures_HD.mpd"
+    },
+    {
+        "channelNumber": 144438,
+        "name": "Zee Bollywood",
+        "entryId": "HE_E_10012",
+        "externalId": "HE_E_10012",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/e1de996d54864c78b8daf60d63974223/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Bollywood/dash/Zee_Bollywood.mpd"
+    },
+    {
+        "channelNumber": 144434,
+        "name": "Zee Action",
+        "entryId": "HE_E_10027",
+        "externalId": "HE_E_10027",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/34108078d7874122b00072cb48a6968a/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Action/dash/Zee_Action.mpd"
+    },
+    {
+        "channelNumber": 66,
+        "name": "Zee Classic",
+        "entryId": "4f50bd34-5e6e-40f3-8f5c-b97240d2580c",
+        "externalId": "HE_E_10023",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/97ff8066a4d945d0ad72764a1f58762b/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Classic/dash/Zee_Classic.mpd"
+    },
+    {
+        "channelNumber": 144443,
+        "name": "Zee Cinema HD",
+        "entryId": "HE_E_10081",
+        "externalId": "HE_E_10081",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/d2316f5734094e8486486d6911fe6560/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Cinema_HD/dash/Zee_Cinema_HD.mpd"
+    },
+    {
+        "channelNumber": 75,
+        "name": "Anmol Cinema 2",
+        "entryId": "719f86f6-ef0e-40e4-bfc4-f548ab2e4efa",
+        "externalId": "HE_E_10043",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/74146d693d6640009a5ed2db2e0c9643/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Anmol_Cinema_2/dash/Anmol_Cinema_2.mpd"
+    },
+    {
+        "channelNumber": 144436,
+        "name": "Zee Anmol Cinema",
+        "entryId": "HE_E_10041",
+        "externalId": "HE_E_10041",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/b9a50d8fab3541af81681eb6bd385eaf/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Anmol_Cinema/dash/Zee_Anmol_Cinema.mpd"
+    },
+    {
+        "channelNumber": 92,
+        "name": "Big Magic",
+        "entryId": "372a386d-a66d-4bb2-b3a1-1bcadbc89058",
+        "externalId": "HE_E_10013",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/a4225f7d32c549638e3c8926a78079e6/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Big_Magic/dash/Big_Magic.mpd"
+    },
+    {
+        "channelNumber": 144484,
+        "name": "Zing",
+        "entryId": "HE_E_10039",
+        "externalId": "HE_E_10039",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8ec419e798e644fca91ae4e11f182a1c/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zing/dash/Zing.mpd"
+    },
+    {
+        "channelNumber": 77447,
+        "name": "9XM",
+        "entryId": "HE_F_10019",
+        "externalId": "HE_F_10019",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/18981b21fabf41f9832523ad441963f8/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/9XM/dash_fta/9XM.mpd"
+    },
+    {
+        "channelNumber": 143563,
+        "name": "Music India",
+        "entryId": "HE_F_10053",
+        "externalId": "HE_F_10053",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/9bc111a3d6f04e5bad9483462ed48e28/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Music_India/dash_fta/Music_India.mpd"
+    },
+    {
+        "channelNumber": 142503,
+        "name": "9X Jalwa",
+        "entryId": "HE_F_10011",
+        "externalId": "HE_F_10011",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/bab798478e714be3a5ae861fc04606f0/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/9X_Jalwa/dash_fta/9X_Jalwa.mpd"
+    },
+    {
+        "channelNumber": 159010,
+        "name": "Eurosport HD",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5015_1234567890AbcFebcd23aa27e4ac2471_6754567890AbcFebcdFFaa27e4ac2138",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5015_1234567890AbcFebcd23aa27e4ac2471_6754567890AbcFebcdFFaa27e4ac2138",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/83301da1b2174c6fadf435b5bdab6b90/version/0",
+        "streamUrl": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd"
+    },
+    {
+        "channelNumber": 152,
+        "name": "Unite8 Sports 1 HD",
+        "entryId": "bd3bf269-43a6-4849-8e3c-0a2c686b6e5f",
+        "externalId": "HE_E_10079",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/396cbd0f0e8d492db65b304859af478d/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Unite8_Sports_1_HD/dash/Unite8_Sports_1_HD.mpd"
+    },
+    {
+        "channelNumber": 153,
+        "name": "Unite8 Sports 2 HD",
+        "entryId": "3b7dcea0-866f-40b2-b2e0-24c7c1d9d8d3",
+        "externalId": "HE_E_10078",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/03fc75c46d9a4b8daff3ef58d77c5bc7/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Unite8_Sports_2_HD/dash/Unite8_Sports_2_HD.mpd"
+    },
+    {
+        "channelNumber": 159298,
+        "name": "Zee News",
+        "entryId": "HE_F_10029",
+        "externalId": "HE_F_10029",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/087a098c826c480796c1e9ac0ade0d82/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_News/dash_fta/Zee_News.mpd"
+    },
+    {
+        "channelNumber": 91327,
+        "name": "Aaj Tak",
+        "entryId": "Aajtak",
+        "externalId": "vzy_91327",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/d68d56b2f78d48d38d1f0ce256ce73b8/version/0",
+        "streamUrl": "https://d21oc15hr8j9zd.cloudfront.net/livetv/clients/watcho/aajtak_watcho_v2.m3u8"
+    },
+    {
+        "channelNumber": 143596,
+        "name": "News Nation",
+        "entryId": "HE_F_10059",
+        "externalId": "HE_F_10059",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/9c50bb3d0a9341a1a631f1423591afef/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/News_Nation/dash_fta/News_Nation.mpd"
+    },
+    {
+        "channelNumber": 158252,
+        "name": "DD National",
+        "entryId": "HE_F_10010",
+        "externalId": "HE_F_10010",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/b3966954ddc54e4fbe880d4cb1a06e26/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/DD_National/dash_fta/DD_National.mpd"
+    },
+    {
+        "channelNumber": 779,
+        "name": "News18 India",
+        "entryId": "1580000151",
+        "externalId": "1580000151",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8d7ee3800b104c1faa1330684b9760d7/version/0",
+        "streamUrl": "https://dw7qrjodgoy3w.cloudfront.net/live/media1/NEWS18_India/dash/NEWS18_India.mpd"
+    },
+    {
+        "channelNumber": 91329,
+        "name": "Good News Today",
+        "entryId": "Good News Today",
+        "externalId": "vzy_91329",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/db8dbcbf8ce04daea5ea9a65f9cf1c57/version/0",
+        "streamUrl": "https://d21oc15hr8j9zd.cloudfront.net/livetv/clients/watcho/gnt_watcho_v1.m3u8"
+    },
+    {
+        "channelNumber": 32,
+        "name": "TIMES NOW NAVBHARAT",
+        "entryId": "TIMES NOW NAVBHARAT",
+        "externalId": "vzy_32",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/1feda4066e6949e2b9ff70bb175b6478/version/0",
+        "streamUrl": "https://dp8vjjam4foas.cloudfront.net/master.m3u8"
+    },
+    {
+        "channelNumber": 307,
+        "name": "Sansad TV HD",
+        "entryId": "HE_F_10090",
+        "externalId": "HE_F_10090",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/f6ace40e05bd435184b232ca5d67fc62/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Sansad_TV_HD/dash_fta/Sansad_TV_HD.mpd"
+    },
+    {
+        "channelNumber": 337,
+        "name": "Sansad TV SD",
+        "entryId": "HE_F_10084",
+        "externalId": "HE_F_10084",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/599cdaeda82a49bda2daf6f649eb2065/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Sansad_TV_SD/dash_fta/Sansad_TV_SD.mpd"
+    },
+    {
+        "channelNumber": 143021,
+        "name": "ET Now",
+        "entryId": "HE_E_10058",
+        "externalId": "HE_E_10058",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/81f431adc0714cff84be95b33d9b1b83/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/ET_Now/dash/ET_Now.mpd"
+    },
+    {
+        "channelNumber": 91324,
+        "name": "India Today",
+        "entryId": "India Today",
+        "externalId": "vzy_91324",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/9e2477b469624b599a0b09bd1b05a5a5/version/0",
+        "streamUrl": "https://d21oc15hr8j9zd.cloudfront.net/livetv/clients/watcho/indiatoday_watcho_v2.m3u8"
+    },
+    {
+        "channelNumber": 144087,
+        "name": "Wion",
+        "entryId": "HE_E_10025",
+        "externalId": "HE_E_10025",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/938610751fea47dbbaa97beae47fdc12/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Wion/dash/Wion.mpd"
+    },
+    {
+        "channelNumber": 144006,
+        "name": "Times Now",
+        "entryId": "HE_E_10087",
+        "externalId": "HE_E_10087",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/ff9991eb1ad44ddca1df937a771c583d/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Times_Now/dash/Times_Now.mpd"
+    },
+    {
+        "channelNumber": 157679,
+        "name": "CNN International",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5017_1234567890AbcFebcd23aa27e4ac2473_6754567890AbcFebcdFFaa27e4ac2140",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5017_1234567890AbcFebcd23aa27e4ac2473_6754567890AbcFebcdFFaa27e4ac2140",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/75ebd51bfb3143af815318d05e3d5039/version/0",
+        "streamUrl": "https://wbd.skandha.tv/CNN_Intl/CNN_Intl.isml/.mpd"
+    },
+    {
+        "channelNumber": 75399,
+        "name": "France 24",
+        "entryId": "France 24",
+        "externalId": "vzy_75399",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/3c7b8d06352349108474c8a8deccf358/version/0",
+        "streamUrl": "https://live.france24.com/live/F24_EN_HI_HLS/playlist.m3u8?hdnts=exp=1753792351~acl=/live/F24_EN_HI_HLS/*~hmac=2626108ee2bc3901f079e2917916624428e791d394271b89b8e72a2054f39b2b&partner=watcho"
+    },
+    {
+        "channelNumber": 75971,
+        "name": "Russia Today",
+        "entryId": "Russia Today",
+        "externalId": "vzy_75971",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/141f566bbc46443ebcf7635d3570d928/version/0",
+        "streamUrl": "https://wisewatchoott.wiseplayout.com/RT/master.m3u8"
+    },
+    {
+        "channelNumber": 311,
+        "name": "Discovery HD",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5008_1234567890AbcFebcd23aa27e4ac2464_6754567890AbcFebcdFFaa27e4ac2131",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5008_1234567890AbcFebcd23aa27e4ac2464_6754567890AbcFebcdFFaa27e4ac2131",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/89d28dc9676c4a73b6ea0d7bef251c18/version/0",
+        "streamUrl": "https://wbd.skandha.tv/DSC_HD_India/DSC_HD_India.isml/.mpd"
+    },
+    {
+        "channelNumber": 158140,
+        "name": "Animal Planet HD",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5010_1234567890AbcFebcd23aa27e4ac2466_6754567890AbcFebcdFFaa27e4ac2133",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5010_1234567890AbcFebcd23aa27e4ac2466_6754567890AbcFebcdFFaa27e4ac2133",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/b85671b9fbe64bf4a02d8b577c318deb/version/0",
+        "streamUrl": "https://wbd.skandha.tv/APL_HD_World_India/APL_HD_World_India.isml/.mpd"
+    },
+    {
+        "channelNumber": 159107,
+        "name": "Discovery Science",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5003_1234567890AbcFebcd23aa27e4ac2459_6754567890AbcFebcdFFaa27e4ac2126",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5003_1234567890AbcFebcd23aa27e4ac2459_6754567890AbcFebcdFFaa27e4ac2126",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/25632f9d76e84ea190c0af714dfb0d31/version/0",
+        "streamUrl": "https://wbd.skandha.tv/SC_India/SC_India.isml/.mpd"
+    },
+    {
+        "channelNumber": 159108,
+        "name": "Discovery Turbo",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5004_1234567890AbcFebcd23aa27e4ac2460_6754567890AbcFebcdFFaa27e4ac2127",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5004_1234567890AbcFebcd23aa27e4ac2460_6754567890AbcFebcdFFaa27e4ac2127",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/bcc8bce53e2d4e908ece0689844d5fea/version/0",
+        "streamUrl": "https://wbd.skandha.tv/Turbo_India/Turbo_India.isml/.mpd"
+    },
+    {
+        "channelNumber": 123500,
+        "name": "TLC HD World India",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5009_1234567890AbcFebcd23aa27e4ac2465_6754567890AbcFebcdFFaa27e4ac2132",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5009_1234567890AbcFebcd23aa27e4ac2465_6754567890AbcFebcdFFaa27e4ac2132",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/54f22094a214425ba0b1c095cd0c5c0c/version/0",
+        "streamUrl": "https://wbd.skandha.tv/TLC_HD_India/TLC_HD_India.isml/.mpd"
+    },
+    {
+        "channelNumber": 343,
+        "name": "Zee Zest",
+        "entryId": "HE_E_10062",
+        "externalId": "HE_E_10062",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/d2cc8c4a35c44b0bb21c05185150f4a0/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Zest_SD/dash/Zee_Zest_SD.mpd"
+    },
+    {
+        "channelNumber": 142779,
+        "name": "DD Bharti",
+        "entryId": "HE_F_10007",
+        "externalId": "HE_F_10007",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/9ac9516189654175bffc220b723e928d/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/DD_Bharti/dash_fta/DD_Bharti.mpd"
+    },
+    {
+        "channelNumber": 157576,
+        "name": "Cartoon Network HD+",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5016_1234567890AbcFebcd23aa27e4ac2472_6754567890AbcFebcdFFaa27e4ac2139",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5016_1234567890AbcFebcd23aa27e4ac2472_6754567890AbcFebcdFFaa27e4ac2139",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/d69b77d8893c4b188b58e3aa96d92740/version/0",
+        "streamUrl": "https://wbd.skandha.tv/Cartoon_Network_HD/Cartoon_Network_HD.isml/.mpd"
+    },
+    {
+        "channelNumber": 143663,
+        "name": "Pogo",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5012_1234567890AbcFebcd23aa27e4ac2468_6754567890AbcFebcdFFaa27e4ac2135",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5012_1234567890AbcFebcd23aa27e4ac2468_6754567890AbcFebcdFFaa27e4ac2135",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/d8e65e9bad9f4c239dd714c2e19990dd/version/0",
+        "streamUrl": "https://wbd.skandha.tv/pogo/pogo.isml/.mpd"
+    },
+    {
+        "channelNumber": 159011,
+        "name": "Discovery Kids",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5006_1234567890AbcFebcd23aa27e4ac2462_6754567890AbcFebcdFFaa27e4ac2129",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5006_1234567890AbcFebcd23aa27e4ac2462_6754567890AbcFebcdFFaa27e4ac2129",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/a9229c57fe50467e92127d6793ede6ec/version/0",
+        "streamUrl": "https://wbd.skandha.tv/Kids/Kids.isml/.mpd"
+    },
+    {
+        "channelNumber": 31340,
+        "name": "Divya",
+        "entryId": "Divya",
+        "externalId": "vzy_31340",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/c1dc2c6c0c2b48949ea31da6d8087c5e/version/0",
+        "streamUrl": "https://vg-pitaaratvlive.akamaized.net/ptnr-WatchO/title-DivyaTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-906482/playlist.m3u8"
+    },
+    {
+        "channelNumber": 55,
+        "name": "SATSANG TV",
+        "entryId": "SATSANG TV",
+        "externalId": "vzy_55",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/0058f882b3e7467682da616040208553/version/0",
+        "streamUrl": "https://d2vfwvjxwtwq1t.cloudfront.net/out/v1/6b24239d5517495b986e7705490c6e65/index.m3u8"
+    },
+    {
+        "channelNumber": 56,
+        "name": "SHUBH TV",
+        "entryId": "SHUBH TV",
+        "externalId": "vzy_56",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/5b1c25783c29483aa8bd4823df126290/version/0",
+        "streamUrl": "https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8"
+    },
+    {
+        "channelNumber": 31341,
+        "name": "Sai Leela",
+        "entryId": "Sai Leela",
+        "externalId": "vzy_31341",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/be557a4c62f240f2919ff50033f31286/version/0",
+        "streamUrl": "https://server.thelegitpro.in/saileelatv/saileelatv/index.m3u8"
+    },
+    {
+        "channelNumber": 57,
+        "name": "Total Bhakti",
+        "entryId": "TOTAL BHAKTI",
+        "externalId": "vzy_57",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/4a8a8ddf9a544e4fbfad7a6746249bcc/version/0",
+        "streamUrl": "https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8"
+    },
+    {
+        "channelNumber": 413,
+        "name": "ZEE PUNJABI",
+        "entryId": "528375b7-bc39-400f-afca-1d6ddcd2a0ad",
+        "externalId": "HE_E_10020",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/600751eb0b714c9992c92d8bfc78e814/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/ZEE_PUNJABI/dash/ZEE_PUNJABI.mpd"
+    },
+    {
+        "channelNumber": 96,
+        "name": "PITAARA",
+        "entryId": "PITAARA",
+        "externalId": "vzy_96",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/95a8d9193b3d4072b5ad7ab682a2b129/version/0",
+        "streamUrl": "https://vg-pitaaratvlive.akamaized.net/ptnr-WatchO/title-PitaaraTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-583798/playlist.m3u8"
+    },
+    {
+        "channelNumber": 142504,
+        "name": "9X Tashan",
+        "entryId": "HE_F_10089",
+        "externalId": "HE_F_10089",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/2481ada1cd354fe3a5b6abed499a2191/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/9X_Tashan/dash_fta/9X_Tashan.mpd"
+    },
+    {
+        "channelNumber": 28321,
+        "name": "Balle Balle",
+        "entryId": "Balle Balle",
+        "externalId": "vzy_28321",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/b53050b7c82b407589226266dd69a205/version/0",
+        "streamUrl": "https://mcncdndigital.com/balleballetv/index.m3u8"
+    },
+    {
+        "channelNumber": 144458,
+        "name": "Zee Marathi HD",
+        "entryId": "HE_E_10096",
+        "externalId": "HE_E_10096",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/9d03463ae16544f2b87dd2e173b22685/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Marathi_HD/dash/Zee_Marathi_HD.mpd"
+    },
+    {
+        "channelNumber": 472,
+        "name": "Zee Yuva",
+        "entryId": "14486e15-2b78-41c7-9cd8-c5501ab0f029",
+        "externalId": "HE_E_10006",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/4c0723e870914be8b9e77207a96227cd/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/ZEE_YUVA/dash/ZEE_YUVA.mpd"
+    },
+    {
+        "channelNumber": 143038,
+        "name": "Fakt Marathi",
+        "entryId": "HE_F_10060",
+        "externalId": "HE_F_10060",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/a924cd82e1d44b9cad4a6f62daee5126/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Fakt_Marathi/dash_fta/Fakt_Marathi.mpd"
+    },
+    {
+        "channelNumber": 144469,
+        "name": "Zee Talkies HD",
+        "entryId": "HE_E_10098",
+        "externalId": "HE_E_10098",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/8afbf5d35d83410e9ee9597d9645d3be/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Talkies_HD/dash/Zee_Talkies_HD.mpd"
+    },
+    {
+        "channelNumber": 90012,
+        "name": "9X Jhakaas",
+        "entryId": "HE_F_10040",
+        "externalId": "HE_F_10040",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/1da89d8c25f0491e8ed1a9c1d0b716fb/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/9X_Jhakaas/dash_fta/9X_Jhakaas.mpd"
+    },
+    {
+        "channelNumber": 144467,
+        "name": "Zee Sarthak",
+        "entryId": "HE_E_10048",
+        "externalId": "HE_E_10048",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/9e787a13afa1447abde693bf57f7f9db/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Sarthak/dash/Zee_Sarthak.mpd"
+    },
+    {
+        "channelNumber": 158049,
+        "name": "Zee Bangla HD",
+        "entryId": "HE_E_10093",
+        "externalId": "HE_E_10093",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/dd74c3cd17ff4baca804bce74b811384/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Bangla_HD/dash/Zee_Bangla_HD.mpd"
+    },
+    {
+        "channelNumber": 577,
+        "name": "Zee Bangla Sonar",
+        "entryId": "bbbc7e86-0aa7-43d3-a7de-e6615c1b9de3",
+        "externalId": "HE_E_10021",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/f508a6918aac461382774c4a34f50c30/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/ZEE_Bangla_Sonar/dash/ZEE_Bangla_Sonar.mpd"
+    },
+    {
+        "channelNumber": 143756,
+        "name": "Sangeet Bangla",
+        "entryId": "HE_F_10044",
+        "externalId": "HE_F_10044",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/ebd2edebccb641a58ae57956dd4ccfb8/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Sangeet_Bangla/dash_fta/Sangeet_Bangla.mpd"
+    },
+    {
+        "channelNumber": 588,
+        "name": "Zee 24 GHANTA",
+        "entryId": "HE_E_10047",
+        "externalId": "HE_E_10047",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/4250427f57894b2c904cdd96bbd418ac/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_24_Ghanta/dash/Zee_24_Ghanta.mpd"
+    },
+    {
+        "channelNumber": 637,
+        "name": "Zee Biskope",
+        "entryId": "587442c3-4203-4586-b040-fe365e0aeda5",
+        "externalId": "HE_E_10022",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/bb424c74bfd54392a86b4a343996b6d5/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Biskope/dash/Zee_Biskope.mpd"
+    },
+    {
+        "channelNumber": 143757,
+        "name": "Sangeet Bhojpuri",
+        "entryId": "HE_F_10054",
+        "externalId": "HE_F_10054",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/032d38ed29b54e51a6e0575bd9e0d837/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Sangeet_Bhojpuri/dash_fta/Sangeet_Bhojpuri.mpd"
+    },
+    {
+        "channelNumber": 665,
+        "name": "Zee Telugu HD",
+        "entryId": "89776df8-e490-4a6c-a12b-9c66f701b694",
+        "externalId": "HE_E_10077",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/5f9137252cc3488c807d2bf70429183b/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Telugu_HD/dash/Zee_Telugu_HD.mpd"
+    },
+    {
+        "channelNumber": 157600,
+        "name": "Zoom",
+        "entryId": "HE_E_10095",
+        "externalId": "HE_E_10095",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/f84de3464c0a4609ac222605bd3b3bfe/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zoom/dash/Zoom.mpd"
+    },
+    {
+        "channelNumber": 683,
+        "name": "Zee Cinemalu HD",
+        "entryId": "860027b6-687a-4eda-b815-7f959a8a0f1c",
+        "externalId": "HE_E_10097",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/a33211ad359a4cba8b23144e4081ff68/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Cinemalu_HD/dash/Zee_Cinemalu_HD.mpd"
+    },
+    {
+        "channelNumber": 722,
+        "name": "Zee Kannada HD",
+        "entryId": "3897c325-3689-42b7-8f02-8ba887392d1a",
+        "externalId": "HE_E_10091",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/37b5fbe79db34171a1873cf889458149/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Kannada_HD/dash/Zee_Kannada_HD.mpd"
+    },
+    {
+        "channelNumber": 732,
+        "name": "Zee Power",
+        "entryId": "HE_E_10064",
+        "externalId": "HE_E_10064",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/c3166a46bb1945638c6c62bd2aa8bff5/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Power_SD/dash/Zee_Power_SD.mpd"
+    },
+    {
+        "channelNumber": 1234,
+        "name": "Zee Tamil HD",
+        "entryId": "b1765ff7-6ef1-4259-8d10-ad4d17f51526",
+        "externalId": "HE_E_10085",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/347e5c06dbde48e0bd570fa92de4ef4e/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Tamil_HD/dash/Zee_Tamil_HD.mpd"
+    },
+    {
+        "channelNumber": 794,
+        "name": "Zee Thirai",
+        "entryId": "HE_E_10009",
+        "externalId": "HE_E_10009",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/cef53bf4b0cd4d79913452f6f645c13f/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Thirai_SD/dash/Zee_Thirai_SD.mpd"
+    },
+    {
+        "channelNumber": 143012,
+        "name": "Discovery Tamil",
+        "entryId": "12ed56d780AbcFebcd23aa27e4ac5007_1234567890AbcFebcd23aa27e4ac2463_6754567890AbcFebcdFFaa27e4ac2130",
+        "externalId": "12ed56d780AbcFebcd23aa27e4ac5007_1234567890AbcFebcd23aa27e4ac2463_6754567890AbcFebcdFFaa27e4ac2130",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/2d59fc89ed914a33be561f8ffa0e34b8/version/0",
+        "streamUrl": "https://wbd.skandha.tv/DSC_TamilNadu/DSC_TamilNadu.isml/.mpd"
+    },
+    {
+        "channelNumber": 853,
+        "name": "Zee Keralam HD",
+        "entryId": "12f57325-9d4d-4865-ad33-60a6581d6d91",
+        "externalId": "HE_E_10092",
+        "logo": "https://imagesv2.dsp1.ott.kaltura.com/Service.svc/GetImage/p/5093/entry_id/100398f683dd4b1bbcf5d6229fd28806/version/0",
+        "streamUrl": "https://d2o8pibksxtln6.cloudfront.net/live/media/Zee_Keralam_HD/dash/Zee_Keralam_HD.mpd"
+    }
+]
