@@ -6,51 +6,33 @@ from pywidevine.device import Device
 from pywidevine.pssh import PSSH
 
 WVD_FILE = "device.wvd"
-# आता हा कोड थेट तुमच्या API मधून चॅनेलचे नाव किंवा नंबर शोधून डेटा फेच करेल
-TARGET_QUERY = sys.argv[1] if len(sys.argv) > 1 else "Zee Power"
+CHANNEL_ID = sys.argv[1] if len(sys.argv) > 1 else "157811"
 
-def get_channels_from_api():
-    print(f"[1] Fetching channels data from IPTVMAX API...")
-    api_url = "https://iptvmax.site/Premium/Vzy/hmac.php"
+def fetch_channel_data():
+    api_url = f"https://iptvmax.site/Premium/Vzy/hmac.php?id={CHANNEL_ID}"
+    print(f"[1] Fetching data from API for ID: {CHANNEL_ID}...")
     try:
         res = requests.get(api_url, timeout=15)
         if res.status_code == 200:
             data = res.json()
             if data.get("status") == "success":
-                return data.get("channels", [])
+                return data.get("channel", {})
     except Exception as e:
-        print(f"    [!] API fetch error: {e}")
-    return []
-
-def find_channel(channels, query):
-    query_lower = query.lower()
-    for ch in channels:
-        # चॅनेलचे नाव, नंबर किंवा entryId जुळत आहे का तपासणे
-        if (query_lower in ch.get("name", "").lower() or 
-            query_lower == str(ch.get("channelNumber", "")) or 
-            query_lower == ch.get("entryId", "").lower() or
-            query_lower == ch.get("externalId", "").lower()):
-            return ch
+        print(f"    [!] API Error: {e}")
     return None
 
 def test_keys():
-    channels = get_channels_from_api()
-    if not channels:
-        print("    [!] No channels found from API.")
-        return
-
-    channel = find_channel(channels, TARGET_QUERY)
+    channel = fetch_channel_data()
     if not channel:
-        print(f"    [!] Channel '{TARGET_QUERY}' not found in API response!")
+        print("    [!] Failed to get channel data from API.")
         return
 
-    print(f"\n[+] Found Channel: {channel.get('name')} (Number: {channel.get('channelNumber')})")
-    print(f"    Entry ID : {channel.get('entryId')}")
-    print(f"    PSSH     : {channel.get('pssh')}")
-
+    print(f"\n[+] Channel Name : {channel.get('name')}")
+    print(f"    PSSH         : {channel.get('pssh')}")
+    
     pssh_b64 = channel.get("pssh")
     if not pssh_b64:
-        print("    [!] PSSH is null for this channel in API!")
+        print("    [!] PSSH is null for this channel!")
         return
 
     widevine_data = channel.get("widevine_data", {})
@@ -58,7 +40,7 @@ def test_keys():
     license_url = widevine_data.get("licenseUrl")
 
     if not auth_token or not license_url:
-        print("    [!] Token or License URL missing from API data!")
+        print("    [!] Token or License URL missing!")
         return
 
     print("[2] Loading x86 TV CDM device...")
@@ -123,3 +105,4 @@ def test_keys():
 
 if __name__ == "__main__":
     test_keys()
+    
